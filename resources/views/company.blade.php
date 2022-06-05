@@ -14,6 +14,7 @@
             href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
             rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/global.css" />
        
     </head>
@@ -31,137 +32,96 @@
                     </video>
                 </div>
             </header>
-            <div class="container img-container">
-                <img src="https://jacen.jac.com.cn/_nuxt/img/img1.1254c85.jpg" />
-                <div class="company-info">
-                    <p>
-                        Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as JAC
-                        Motors or JAC) is a comprehensive automobile enterprise that
-                        integrates R&D, production and sales of a full range of
-                        commercial vehicle, passenger vehicle and powertrain, and covers
-                        many fields such as ride hailing/sharing and financial services.
-                        JAC develops simultaneously on "advanced energy-saving vehicles,
-                        new energy vehicles, and intelligent connected vehicles". JAC is
-                        awarded as the National Torch Program's key high-tech
-                        enterprise, the top 500 Chinese companies, and the top five
-                        Chinese independent vehicle brands.
-                    </p>
-                </div>
-            </div>
-        
-            <div class="container info-container flex-container">
-                <h2>Aggressive And Muscular Front Grille | Design From Rome Shield</h2>
-                <img src="https://jacen.jac.com.cn/_nuxt/img/img2-1-1.c40f126.jpg" />
-                <img src="https://jacen.jac.com.cn/_nuxt/img/img2-1-2.74372b5.jpg" />
-            </div>
-            <div class="container img-continer">
-                <img src="./assets/body-img-2.jpg" alt="" />
-            </div>
-            <div class="container info-container">
-                <h2>Streamlined Body | 18'' Double Color Aluminum Alloy Wheel Rim</h2>
-            </div>
-        
-            <div class="container flex-container">
-                <div class="img img-left">
-                    <img src="./assets/body-img-3.jpg" alt="" />
-                    <h3>
-                        Auto Xenon Headlamps LED <br />
-                        Daytime Running Lamps
-                    </h3>
-                </div>
-                <div class="img img-right">
-                    <img src="./assets/body-img-4.jpg" alt="" />
-                    <h3>
-                        Double C <br />
-                        LED Rear Combination Lamps
-                    </h3>
-                </div>
-            </div>
-            <div class="container img-continer">
-                <img src="./assets/body-img-5.jpg" alt="" />
-            </div>
-        
-            <div class="container info-container">
-                <h2>Classic T-shaped Dashboard</h2>
-                <h3>Leather Covering Interior, Chrome Decorative Line</h3>
-                <h2>Leather Bound Multifunctional Steering Wheel</h2>
-                <h3>Audio Control & Cruise Control & Bluetooth Phone</h3>
-                <h2>Smart Entry And Start System</h2>
-            </div>
-        
-            <div class="container img-continer">
-                <img src="./assets/body-img-6.jpg" alt="" />
-                <h3>7'' Colour Multi Information Display</h3>
-            </div>
-        
-            <!-- slider here -->
-            <div class="slideshow-container">
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <img src="./assets/slider-img-1.jpg" style="width: 100%" />
-                    <div class="text">Air-conditioning Control & Reverse Camera</div>
-                </div>
-        
-                <div class="mySlides fade">
-                    <img src="./assets/slider-img-2.jpg" style="width: 100%" />
-                    <div class="text">
-                        AM/FM Stereo Radio, Bluetooth and CarPlay / Android Auto
-                        Smartphone Connectivity
+            <div class="container comp-info">
+                <div class="comp-img">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img1.1254c85.jpg" />
+                    <div class="company-info">
+                        <p>
+                            Anhui Jianghuai Automobile Group Co., Ltd. (abbreviated as JAC
+                            Motors or JAC) is a comprehensive automobile enterprise that
+                            integrates R&D, production and sales of a full range of
+                            commercial vehicle, passenger vehicle and powertrain, and covers
+                            many fields such as ride hailing/sharing and financial services.
+                            JAC develops simultaneously on "advanced energy-saving vehicles,
+                            new energy vehicles, and intelligent connected vehicles". JAC is
+                            awarded as the National Torch Program's key high-tech
+                            enterprise, the top 500 Chinese companies, and the top five
+                            Chinese independent vehicle brands.
+                        </p>
                     </div>
                 </div>
-        
-                <div class="mySlides fade">
-                    <img src="./assets/slider-img-3.jpg" style="width: 100%" />
-                    <div class="text">10.4'' Colour Touchscreen MP5</div>
-                </div>
-        
-                <!-- Next and previous buttons -->
-                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
             </div>
-            <br />
-        
-            <!-- The dots/circles -->
-            <div style="text-align: center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-            <!-- Slider finsished here -->
-        
-            <div class="container flex-container">
-                <div class="img img-left">
-                    <img src="./assets/body-img-3.jpg" alt="" />
-                    <h3>
-                        Auto Xenon Headlamps LED <br />
-                        Daytime Running Lamps
-                    </h3>
+            <div class="container comp-info-1">
+                <div class="comp-info-text">
+                    <p>The existing leading products include: heavy, medium, light and mini trucks, multi-functional commercial vehicle, MPV, SUV, passenger car, bus & coach, special-purposed chassis, gearbox, engine, axle and other core components. Now JAC owns several well-known brands, for example, Refine, JAC iEV, Shuailing, Junling, Kangling, Gallop, Heyue, Sunray and GreenJet.</p>
                 </div>
-                <div class="img img-right">
-                    <img src="./assets/body-img-4.jpg" alt="" />
-                    <h3>
-                        Double C <br />
-                        LED Rear Combination Lamps
-                    </h3>
+                <div class="comp-image">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img2-1-1.c40f126.jpg">
+                </div>
+                <div class="comp-image">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img2-1-2.74372b5.jpg" >
                 </div>
             </div>
-        
-            <div class="container flex-container">
-                <div class="img img-left">
-                    <img src="./assets/body-img-3.jpg" alt="" />
-                    <h3>
-                        Auto Xenon Headlamps LED <br />
-                        Daytime Running Lamps
-                    </h3>
+            <div class="container comp-info-1">
+                
+                <div class="comp-image-2">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img2-2.20216a8.jpg">
                 </div>
-                <div class="img img-right">
-                    <img src="./assets/body-img-4.jpg" alt="" />
-                    <h3>
-                        Double C <br />
-                        LED Rear Combination Lamps
-                    </h3>
+                
+                <div class="comp-info-text-2">
+                    <p>TJAC is equipped with a high-level R&D team of nearly 5,000 people, adheres to the key technology R&D route of "energy saving, environmental protection, safety, intelligence, network connection and comfort". The complete positive R&D system is established, which is capable to achieve the development, test and verification, and calibration for whole vehicles and key components such as core power train, automatic transmission and the software system. There are comprehensive breakthroughs in energy saving and emission reduction technology, intelligent safety technology, noise technology, lightweight technology, new energy technology and manufacturing process technology, etc., which contributes to the further improvement of company core competitiveness.</p>
                 </div>
             </div>
+
+            <div class="container comp-info-1">
+                <div class="comp-image">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img3-1-1.c5c416f.jpg">
+                </div>
+                <div class="comp-image">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img3-1-2.025bd2b.jpg" >
+                </div>
+            </div>
+
+            <div class="container comp-info-1">
+                
+                <div class="comp-image-2">
+                    <img src="https://jacen.jac.com.cn/_nuxt/img/img3-2.ab661d9.jpg">
+                </div>
+                
+                <div class="comp-info-text-2">
+                    <p>As of 2020, JAC has accumulated a total of 14,456 patents, becoming the first domestic auto company with over 10,000 patents. Since 2009, a total of 10 JAC self-developed engines have been awarded the “China Heart" 10 BEST ENGINES. The 6DCT automatic transmission, a key project of the National 863 Program (National High-tech R&D Program), achieves complete indepen dence of TCU upper software development and breaks the international monopoly.</p>
+                </div>
+            </div>
+
+            <div class="cmp-img-fullwidth">
+                <img src="https://jacen.jac.com.cn/_nuxt/img/img4.65c8433.jpg" alt="">
+            </div>
+
+            <div class="info-container-fullwidth">
+                
+                <img src="https://jacen.jac.com.cn/_nuxt/img/img5.99b03a9.jpg" alt="">
+                <p>Until March 2020, as a pioneer in China new energy vehicle industry, JAC has demonstrated and promoted more than 160,000 new energy vehicles, with a total mileage of 3.2 billion kilometers. The new energy business covers passenger cars, light commercial vehicles, multi-functional commercial vehicles, buses and other products. JAC has achieved important breakthroughs in battery thermal management technology and intrinsic safety management technology. The battery liquid cooling technology is world-leading and unique in China.</p>
+            </div>
+
+            <div class="cmp-img-fullwidth">
+                <img src="https://jacen.jac.com.cn/_nuxt/img/img6.a2f579f.jpg" alt="">
+            </div>
+
+            <div class="container text-flex">
+                <p>JAC established joint ventures with well-known enterprises, for instance, Volkswagen of Germany, Cummins Engine, and Santander Bank of Spain, and has built cooperative relations with more than 130 countries and regions in the world such as South America, Europe, Africa, Middle East, and Southeast Asia. JAC owns two overseas R&D centers in Japan and Italy, and subsidiaries in Russia, Vietnam and Kenya. There are also 19 international industrial bases in Mexico, Kazakhstan and other areas. By the end of 2019, JAC had exported more than 640,000 vehicles. Medium and high-end light trucks have been the No. 1 exporter in the industry for many consecutive years.</p>
+                <p>JAC actively responds to the national “Belt and Road” initiative. Currently, the export market covers 80 countries along the “Belt and Road”. The export volume of these countries is approximately 150,000 units in the past three years, accounts for about 75% of JAC total exports. In 2019, the “Belt and Road” initiative advanced to a new stage, and JAC successfully participated in the acquisition of Kazakhstan’s largest automobile industry group, Allur Group, becoming an important starting point of JAC on the development of the customs union market and the internationalization strategy of the Central Asian market.</p>
+            </div>
+
+            <div class="cmp-img-fullwidth">
+                <img src="https://jacen.jac.com.cn/_nuxt/img/img8.d17fef8.jpg" alt="">
+            </div>
+            <div class="cmp-img-fullwidth">
+                <img src="https://jacen.jac.com.cn/_nuxt/img/img10.e47dc72.jpg" alt="">
+            </div>
+
+            
+        
+          
             @include('components.footer')
        
         <script src="../js/app.js"> This is js</script>

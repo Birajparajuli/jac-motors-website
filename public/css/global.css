@@ -1,3 +1,4 @@
+/* Global Formatting */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,10 @@ body {
     font-family: "Cormorant", serif;
     width: 100vw;
 }
+/* Global Formatting End */
+
+/* Navbar Styling Start */
+
 nav {
     position: fixed;
     display: flex;
@@ -122,6 +127,178 @@ h3 {
 .sr-only {
     display: none;
 }
+
+.nav-box-bg {
+    content: " ";
+    position: absolute;
+    height: 60px;
+    width: 400px;
+    top: -23px;
+    left: -30px;
+    background-color: red;
+    transform: skewX(-30deg);
+    opacity: 0.5;
+}
+
+/* Navbar and Responsvie Nav Ends Here */
+
+/* Slider Styling */
+.slideshow-container {
+    padding: 1% 10%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* slider code ends here */
+
+/* Company Page Code */
+.comp-img {
+    position: relative;
+}
+
+.company-info {
+    position: absolute;
+
+    bottom: 0;
+    left: 60%;
+}
+
+.company-info p {
+    background-color: red;
+    padding: 20px;
+    color: #ffff;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.comp-info-1 {
+    display: flex;
+}
+.comp-info-text {
+    width: 95%;
+}
+.comp-info-text p {
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+.comp-image {
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.comp-image-2 {
+    margin-right: 20px;
+    width: 400%;
+}
+
+.comp-info-text-2 p {
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.cmp-img-fullwidth {
+    padding: 2rem 0;
+}
+
+.info-container-fullwidth {
+    display: flex;
+    align-items: center;
+    background-color: #3d4045;
+    color: #fff;
+}
+.info-container-fullwidth img {
+    width: 50%;
+}
+
+.info-container-fullwidth p {
+    padding: 20px;
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.text-flex {
+    display: flex;
+}
+.text-flex p {
+    padding: 10px;
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+/* Media Queries */
 /* responsive menu */
 @media (max-width: 1000px) {
     .links a {
@@ -131,9 +308,28 @@ h3 {
     .container {
         padding: 2%;
     }
+    .comp-info-1 {
+        flex-direction: column;
+    }
+
+    .info-container-fullwidth {
+        flex-direction: column;
+    }
+
+    .info-container-fullwidth img {
+        width: 100%;
+    }
+    .comp-image-2 {
+        width: 100%;
+    }
+
+    .text-flex {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 805px) {
+    /* Navigation Menu */
     .links {
         position: fixed;
         inset: 0 0 0 0;
@@ -189,129 +385,9 @@ h3 {
     .flex-container {
         flex-direction: column;
     }
-}
 
-.nav-box-bg {
-    content: " ";
-    position: absolute;
-    height: 60px;
-    width: 400px;
-    top: -23px;
-    left: -30px;
-    background-color: red;
-    transform: skewX(-30deg);
-    opacity: 0.5;
-}
-/* slider code starts here */
-.slideshow-container {
-    padding: 1% 10%;
-    position: relative;
-    margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-    padding: 5px;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0.4;
+    /* Company Page Image */
+    .company-info {
+        position: static;
     }
-    to {
-        opacity: 1;
-    }
-}
-
-/* slider code ends here */
-
-/* Footer */
-.line {
-    height: 2px;
-    width: 90vw;
-    background-color: #2222;
-}
-
-.footer-cp {
-    margin: 10px;
-}
-
-.footer-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-logo img {
-    height: 70px;
-    padding: 10px;
 }
