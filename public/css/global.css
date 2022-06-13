@@ -12,7 +12,6 @@ body {
 p {
     font-size: 1.6em;
     font-family: "Nunito Sans", sans-serif;
-    text-align: center;
 }
 /* Global Formatting End */
 
@@ -86,6 +85,9 @@ nav::before {
     /* left: 0; */
 }
 
+.p-margin {
+    text-align: center;
+}
 img {
     max-width: 100%;
 }
