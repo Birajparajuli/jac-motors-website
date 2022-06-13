@@ -1,5 +1,5 @@
 <nav id="nav">
-    <div class="logo">
+    <div class="logo" onclick="window.location.href='/'">
         <img
             src="./assets/logo-nav-pc.webp"
             alt="logo"
@@ -22,10 +22,10 @@
     <div class="links" data-visible="false">
         <ul>
             <li>
-                <a href="#">Brand</a>
+                <a href="/company">Company</a>
             </li>
             <li>
-                <a href="#">News and Events</a>
+                <a href="/philosophy">Philosophy</a>
             </li>
             <li>
                 <a href="#">Lifestyle</a>
