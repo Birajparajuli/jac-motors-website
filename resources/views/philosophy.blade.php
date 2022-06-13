@@ -120,6 +120,7 @@
                     </div>
                 </div>
             </div>
+            @include('components.footer')
        
         <script src="../js/app.js"> This is js</script>
     </body>

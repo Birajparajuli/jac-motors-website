@@ -398,6 +398,12 @@ h3 {
 /* Media Queries */
 /* responsive menu */
 @media (max-width: 1000px) {
+    .logo-big {
+        display: none;
+    }
+    .logo-sm {
+        display: block;
+    }
     .links a {
         padding: 0 10px;
         font-size: 14px;
