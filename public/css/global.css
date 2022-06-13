@@ -8,6 +8,12 @@ body {
     font-family: "Cormorant", serif;
     width: 100vw;
 }
+
+p {
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+}
 /* Global Formatting End */
 
 /* Navbar Styling Start */
@@ -87,7 +93,20 @@ video {
     max-width: 100%;
 }
 .container {
-    padding: 2% 10% 1% 10%;
+    padding: 2% 5% 1% 5%;
+}
+
+.spec-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.spec-title h2 {
+    font-size: 2rem;
+    margin: 10px auto;
 }
 
 .info-container h2,
@@ -99,35 +118,26 @@ h3 {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 20px;
 }
 
-.image-left {
-    margin-right: 10px;
-}
-.img-right {
-    margin-left: 10px;
+.home-info-img p {
+    margin: 20px;
 }
 
-.img {
-    overflow: hidden;
-    display: inline-block;
-}
-.img img {
-    transition: all 1s ease;
-    margin-bottom: 20px;
-}
-.img img:hover {
-    transform: scale(1.1);
-}
-
-.img h3 {
-    padding-top: 20px;
+.home-flex-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .sr-only {
     display: none;
 }
 
+.p-margin {
+    margin: 20px;
+}
 .nav-box-bg {
     content: " ";
     position: absolute;
@@ -298,6 +308,91 @@ h3 {
     font-size: 1.6em;
     font-family: "Nunito Sans", sans-serif;
 }
+
+/* Company Page End */
+
+/* Philoshopy Page Start */
+.ph-brand-vision h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.ph-brand-vision h2 {
+    font-size: 4rem;
+}
+.ph-brand-vision p {
+    margin-top: 20px;
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.ph-flex-values {
+    display: flex;
+    gap: 20px;
+}
+
+.ph-val-img {
+    max-height: 50vh;
+    min-width: 40vw;
+
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* .ph-val-img img {
+    object-fit: cover;
+} */
+.ph-values h2 {
+    font-size: 4rem;
+}
+
+.ph-values p {
+    margin-top: 20px;
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.ph-img-fullwidth {
+    display: flex;
+    gap: 20px;
+}
+
+.zoom-img {
+    overflow: hidden;
+}
+.zoom-img img:hover {
+    transform: scale(1.3);
+    transition: all 1s ease;
+}
+
+.ph-char {
+    display: flex;
+    margin: 20px auto;
+}
+
+.ph-char h2 {
+    font-size: 4rem;
+}
+
+.ph-char h3 {
+    text-align: left;
+    margin: 20px 0 5px 0;
+    font-size: 2rem;
+}
+
+.ph-char p {
+    margin-top: 20px;
+    font-size: 1.6em;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.ph-char-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
 /* Media Queries */
 /* responsive menu */
 @media (max-width: 1000px) {
@@ -325,6 +420,17 @@ h3 {
 
     .text-flex {
         flex-direction: column;
+    }
+
+    .ph-flex-values,
+    .ph-char,
+    .ph-img-fullwidth {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        padding: 10px;
     }
 }
 
